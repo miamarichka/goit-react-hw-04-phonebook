@@ -7,9 +7,152 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(2,0,36);
+background: linear-gradient(120deg, rgba(2,0,36,0.751313025210084) 10%, rgba(9,49,121,0.31994047619047616) 33%, rgba(0,212,255,0.2050945378151261) 100%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+}
+
+
+img{
+  display: inline-block;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container{
+margin-left: 50px;
+}
+
+.title{
+  font-size: 24px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+#form {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label{
+  display: block;
+  margin-bottom: 6px;
+  font-size: 20px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+input{
+  max-width: 200px;
+  height: 24px;
+  outline: none;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+input:focus,
+input:hover{
+  border: 2px solid rgba(122, 200, 255, 0.525);
+  transform: scale(1.1);
+  transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.phonebook__name{
+padding: 10px;
+}
+.phonebook__phone{
+padding: 10px;
+}
+
+.phonebook__title{
+  font-size: 40px;
+}
+.phonebook__btn{
+  background-color: white;
+  margin: auto;
+  height: 40px;
+  border: 1px white solid;
+  font-family: ui-monospace;
+  font-size: 20px;
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
+
+.phonebook__btn:hover,
+.phonebook__btn:focus{
+  text-shadow: 2px 2px 4px rgba(122, 200, 255, 0.525);
+  border: none;
+  transform: scale(1.2);
+  transition:cubic-bezier(0.02, 0.1, 0.2, 1);
+}
+
+.contact-list__title{
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+.contact-search__input{
+  width: 250px;
+}
+.contact-search__label{
+  font-size: 28px;
+}
+
+.contact-list__item{
+  font-family: monospace;
+  font-size: 28px;
+  color: rgb(37, 18, 132);
+}
+
+.contact-list__btn{
+  background-color: white;
+  margin-left: 18px;
+  margin-bottom: 10px;
+  height: 40px;
+  border: 1px white solid;
+  font-family: ui-monospace;
+  font-size: 20px;
+  border-radius: 5%;
+}
+
+.contact-list__btn:hover,
+.contact-list__btn:focus{
+  text-shadow: 2px 2px 4px rgba(122, 200, 255, 0.525);
+  border: none;
+  transform: scale(1.2);
+  transition:cubic-bezier(0.02, 0.1, 0.2, 1);
+}
+
+
